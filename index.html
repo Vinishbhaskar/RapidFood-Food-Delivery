@@ -18,26 +18,14 @@
         <div id="title"></div>
     </div>
     <script>
-        const heading = React.createElement("h1",{
-            id:"title",
-            style:{
-            position:"relative",
-            margin:"`1px 100px 100px 100px",
-            backgroundColor: "lightBlue",
-            color: "red",
-            padding: "50px",
-            border:"4px dotted blue",
-            borderBottom:"5px solid orange",
-            fontFamily: "ubuntu",
-            textAlign: "center",
-            textDecoration: "underline",
-            textDecorationColor: "grey"}
-        },"Learn React Creatively")
-        console.log(heading)
+       const heading = document.createElement("h1")
 
-        const root =  ReactDOM.createRoot(document.getElementById("root"))
+       heading.innerHTML = "Heading using JavaScript"
 
-        root.render(heading)
+       const root = document.getElementById("title")
+
+       root.appendChild(heading)
+       
     </script>
 </body>
 </html>
