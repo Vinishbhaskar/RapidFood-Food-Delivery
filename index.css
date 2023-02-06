@@ -1,0 +1,8 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+body { 
+    background-color: #988de1;
+    color: black;
+  }
