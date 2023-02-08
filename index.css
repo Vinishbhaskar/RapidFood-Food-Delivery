@@ -6,3 +6,32 @@ body {
     background-color: #988de1;
     color: black;
   }
+.root{
+    width:auto;
+    height:auto;
+    position:relative;
+    margin:0px;
+    background-color: black;
+    color: red;
+    padding: 20px;
+    border:5px dotted blue;
+    border-bottom:5px solid #FFED00;
+    font-family: roboto;
+    text-align: center;
+    /* text-decoration: underline;
+    text-decoration-color: white */
+}
+.ol{
+    width:auto;
+    height:auto;
+    position:relative;
+    margin:10px;
+    background-color: #0F6292;
+    color: white;
+    padding: 50px;
+    border:5px solid #16FF00;
+    border-bottom:5px solid #FFED00;
+    font-family: roboto;
+    text-align: left;
+    font-size: 20px;
+  }
