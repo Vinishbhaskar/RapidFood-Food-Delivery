@@ -22,10 +22,11 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browerslist":[
+  "browerslist": [
     "last 1 Chrome versions"
   ]
 }
