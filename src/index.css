@@ -5,6 +5,7 @@
 }
 
 /* Header CSS */
+
 .header{
   display: flex;
   justify-content: space-between;
@@ -53,8 +54,8 @@
   width: 200px;
   border-radius: 5px;
   box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
-  padding: 10px;
-  margin: 20px;
+  padding: 20px;
+  margin: 10px;
   cursor: pointer;
 }
 
@@ -88,7 +89,7 @@
 
 
 
-/* footer CSS */
+/* Footer CSS */
 .footer{
   margin: 10px;
   width: auto;
@@ -102,10 +103,6 @@
 .footer > i{
   padding: 0 5px 0;
   font-size: smaller;
-}
-
-.fa-heart{
-  color: darkred;
 }
 
 .footer > strong{

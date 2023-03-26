@@ -1,6 +1,8 @@
-import logo from "./logo.png"
+import logo from "../assets/logo.png"
+import {MdShoppingCart} from 'react-icons/md';
 
-const HeaderComponent =()=> {
+
+const Header =()=> {
     return (
     <div className="header">
         <a href="/">
@@ -11,11 +13,11 @@ const HeaderComponent =()=> {
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Contact Us</li>
-                <li><i class="fa-solid fa-cart-shopping"></i>Cart</li>
+                <li> <MdShoppingCart/> Cart</li>
             </ul>
         </div>
     </div>
     )
 }
 
-export default HeaderComponent
+export default Header

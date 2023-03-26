@@ -1,15 +1,16 @@
 import React from "react"
 import ReactDOM  from "react-dom/client"
-import HeaderComponent from "./Header"
-import { MainBody } from "./MainBody";
-import Footer from "./Footer.js"
+import Header from "./components/Header"
+import { Body } from "./components/Body"
+import Footer from "./components/Footer.js"
+import "./index.css"
 
 
 const AppLayout =() =>  {
     return (
         <>
-            <HeaderComponent/>
-            <MainBody />
+            <Header/>
+            <Body />
             <Footer />
         </>
     )
