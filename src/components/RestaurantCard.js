@@ -2,6 +2,7 @@ import { FaStar } from 'react-icons/fa';
 import { IMG_CDN_URL } from '../config';
 
 // Restaurant card component: Image, name, cuisine
+
 const RestaurantCard = ({
     cloudinaryImageId,
     name,
@@ -18,7 +19,7 @@ const RestaurantCard = ({
         <p><i>{cuisines.join(", ")}</i></p>
         <p><b>{area}</b></p>
         <span>
-            <h4><FaStar/>{avgRating}</h4>
+            <h4>{avgRating}&nbsp;<FaStar/></h4>
             <h4>{lastMileTravelString}</h4>
             <h4>{costForTwoString}</h4>
         </span>
