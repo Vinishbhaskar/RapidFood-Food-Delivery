@@ -2,6 +2,7 @@
 
 RapidFood is a food delivery web application built using ReactJs and Firebase, bundled with Parcel Bundler. The app allows users to browse and place orders from over 100 local restaurants. It utilizes the Swiggy API for seamless loading of restaurant data and search functionality. The UI is modern and responsive, designed using Tailwind CSS to ensure smooth navigation and enhanced usability.
 
+
 ## Key Features
 - Browse and place orders from 100+ local restaurants
 - Seamless loading of restaurant data using Swiggy API
@@ -27,4 +28,5 @@ The code for RapidFood is available on GitHub at: [GitHub Repository Link](https
 ## Installation and Usage
 - npm install
 - npm run dev
+
 
