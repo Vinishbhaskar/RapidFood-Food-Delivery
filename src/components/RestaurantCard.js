@@ -16,7 +16,7 @@ const RestaurantCard = ({
       <div className="card">
         <img src={IMG_CDN_URL + cloudinaryImageId} />
         <h3>{name}</h3>
-        <p><i>{cuisines.join(", ")}</i></p>
+        <p><i>{cuisines?.slice(0, 3)?.join(", ")}</i></p>
         <p><b>{area}</b></p>
         <span>
             <h4>{avgRating}&nbsp;<FaStar/></h4>
