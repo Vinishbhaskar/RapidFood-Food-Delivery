@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Vinishbhaskar/Learning_react-Namaste#readme",
   "devDependencies": {
+    "buffer": "^5.7.1",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   },

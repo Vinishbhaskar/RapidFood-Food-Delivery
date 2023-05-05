@@ -1,11 +1,11 @@
 import logo from "../assets/logo.png"
 import {MdShoppingCart} from 'react-icons/md';
-// import { useState } from "react";
+import { useState } from "react";
 
 
 const Header =()=> {
     // const [title, setTitle] = useState("New Food APP");
-    // console.log("render")
+    const [isLoggedIn, setIsLoggedIn] = useState(false)
 
     return (
         
@@ -22,6 +22,9 @@ const Header =()=> {
                 <li> <MdShoppingCart/> Cart</li>
             </ul>
         </div>
+        {isLoggedIn ? (<button onClick={()=>setIsLoggedIn(false)}>Logout</button>)
+            : (<button onClick={()=>setIsLoggedIn(true)}>Login</button> ) 
+        }
     </div>
     )
 }
